@@ -7,3 +7,17 @@ body{
     color:rgb(251, 255, 0);;
     text-align: center;
 }
+
+li {
+    list-style-type: none;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
+
+img:hover{
+    width: 200px;
+    height: auto;
+}

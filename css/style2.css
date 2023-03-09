@@ -7,3 +7,7 @@ body{
     color:rgb(137, 101, 235);;
     text-align: center;
 }
+
+li {
+    list-style-type: none;
+}

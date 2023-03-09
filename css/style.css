@@ -1,0 +1,35 @@
+/* todo: h1-h4, bolds, more p options, italics, hover effects, etc 
+color palette a bit diff for each page, better color blocking
+one of the deftones images is not aligned and it is painful to look at
+bullet points are out of place
+more text needed for all pages so its scrollable and i can add more sections*/
+
+html{
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+body{
+    background-color: #eafdf8;
+    color:rgb(137, 101, 235);
+    text-align: center;
+}
+
+p{
+    color: rgb(137, 101, 235); 
+} 
+
+h1{
+    color: rgb(137, 101, 235);
+}
+
+h2{
+    color: #8c5e58;
+}
+
+h3{
+    color: #7c616c;
+}
+
+h4{
+    color: #736f72;
+}

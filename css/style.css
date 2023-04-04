@@ -41,10 +41,7 @@ body{
     color:rgb(137, 101, 235);
     text-align: center;
 }
-p{
-    color: rgb(137, 101, 235);
-}
-h1{
+p,h1{
     color: rgb(137, 101, 235);
 }
 h2{
@@ -62,6 +59,12 @@ li {
 img:hover{
     width: 400px;
     height: auto;
+    border: 5px solid #a2eafc;
+    box-shadow: 0 0 20px #f5c6fc
+}
+video:hover{
+    border: 4px solid #dba2fc;
+    box-shadow: 0 0 20px #94ddff;
 }
 .resumeboldstuff{
     color: white;
@@ -82,4 +85,25 @@ img:hover{
 }
 .resumetextsmall:hover{
     color: #000000;
+}
+.bbsec{
+    overflow: auto;
+}
+.bbpc:hover{
+    background-color: #d5fff8;
+    box-shadow: 0 0 8px 8px #6effaf inset;
+}
+#bbintro{
+    float: left;
+    width: 50%;
+}
+#bbintro:hover{
+    background-color: #68ffe6;
+}
+#favbeys{
+    float: right;
+    width: 50%;
+}
+#favbeys:hover{
+    background-color: #c898ff;
 }

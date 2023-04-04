@@ -1,20 +1,4 @@
-/* todo: h1-h4, bolds, more p options, italics, hover effects, etc 
-color palette a bit diff for each page, better color blocking
-one of the deftones images is not aligned and it is painful to look at
-more text needed for all pages so its scrollable and i can add more sections
-
-    ALL THE REQUIRMENTS FROM PROJECT 1 STILL APPLY!
-    One valid, error-free CSS file with your original code; and one file containing the CSS reset code you used. Both linked from the head of all three HTML files
-    Apply at least five of the same style elements to each of your pages. Example removing the list-style from navigation on all three pages with a single CSS deceleration.
-    Apply at least five different style elements to each of your pages.
-    Centered horizontal-navigation. At the top of and identical on every page.
-    Use one imported font style and one browser native font style.
-    Six screen capture images of successful validation. One HTML and one CSS validation for each website page. Use the live link to validate. (-50% if it doesn't validate)
-    Your HTML and CSS files should both be indented with 2 spaces per level of indent; indent all CSS style rules inside the declaring block, and further indent all rules and blocks inside your media queries
-    You must use relative units (em, rem, vm, %) in your CSS to make your pages fluid. You may use px units to put a maximum size or within content areas.
-    Create at least one fluid layout page using relative units (em, rem, vm, %) and one fixed width layout page.
-    A subjective grade will be applied to websites that are not creative and just apply the minimum required style.
-*/
+/* */
 
 html{
     font-family: 'Nanum Myeongjo', serif;
@@ -25,6 +9,13 @@ body{
     background-color: #eafdf8;
     color:rgb(137, 101, 235);
     text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px solid #c0e4c9;
+    margin-bottom: 4vh;
 }
 
 p{
@@ -49,4 +40,13 @@ h4{
 
 li {
     list-style-type: none;
+}
+
+img:hover{
+    width: 200px;
+    height: auto;
+}
+
+.resumeboldstuff{
+    background-color: #F4D4B8;
 }

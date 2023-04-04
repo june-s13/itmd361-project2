@@ -7,6 +7,15 @@ body{
     color:rgb(137, 101, 235);
     text-align: center;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 0.4vh;
+    padding-bottom: 0.5vh;
+    width: 300vw;
+    text-decoration: none;
+  }
+
 header {
     display: flex;
     justify-content: center;
@@ -32,7 +41,7 @@ li {
     list-style-type: none;
 }
 img:hover{
-    width: 200px;
+    width: 400px;
     height: auto;
 }
 .resumeboldstuff{

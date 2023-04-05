@@ -71,7 +71,7 @@ video:hover{
     font-family: system-ui;
     text-align: center;
     font: 35px system-ui;
-    font-style: bold;
+    font-weight: bold;
     background-image: linear-gradient(to left, rgb(147, 179, 171), hsl(162, 81%, 58%), rgb(112, 22, 175), hsl(162, 81%, 58%), cyan);
     border-radius: 5px;
 }
